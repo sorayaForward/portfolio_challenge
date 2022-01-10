@@ -1,0 +1,148 @@
+*{margin:0;padding:0;    font-family: 'Work Sans', sans-serif;}
+.contact,.page0,.volunteer-experience{height:700px;}
+body{justify-content:center}
+
+
+.page0{
+    background-image:url("images/5039684.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.page0 a:hover{color:rgb(209, 34, 101);}
+
+.page1 h1{
+    font-size: 50px;
+    font-weight: large;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.page1 p{color:white;font-size:30px;text-align: center; margin-top:5%}
+.page2{height:500px}
+
+button{
+    border-radius:50px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(209, 34, 101);
+    margin:auto;
+    position:absolute;
+    top:85%;
+    left:45%;
+    background-color:transparent;
+    color:white;
+    font-size: 15px;
+
+
+}
+ul{
+    height:30%;
+    padding:7%;
+    font-size: 20px;
+    color:white;
+    list-style-type: none;
+   
+display:flex
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    margin-bottom: 9px;
+   margin:auto
+
+}
+
+.title{color:rgb(209, 34, 101);}
+.page2{
+    display:flex;
+    padding:7%;
+    margin:auto;
+    width:auto}
+
+h1{color:black;margin:30px auto;}
+.page2 p{color:black;font-size:30px;margin-top:15%}
+.page2 img{
+    border-radius: 100%;
+    width:40%;
+    height:90%; 
+    margin-top:8%;
+    margin-left:8%;
+    animation: circle1 40s linear infinite;
+
+box-shadow: 0 0 7px rgb(255, 255, 255),
+0 0 5px rgb(90, 105, 235),
+0 0 10px rgb(230, 120, 120);
+}
+
+.page2 div{
+    width:50%;
+    height:50%;
+     
+   }
+hr{width:200px;height:1%;background-color:black}
+#neon{
+color:#041a2a;
+text-shadow: 0 0 7px #fff,
+0 0 10px #fff,
+0 0 21px #fff;
+
+}
+
+form{
+
+    padding:7%;
+
+}
+
+#res0{padding:7%;}
+#res1{margin-top:15%;width:39%;}
+#res2{width:39%;margin-top:15%;margin-left:17%}
+.work hr,#first hr {width:200px;height:4px;}
+#together{padding:7%;display:flex}
+#res1 h3{
+    animation: typ 2s  infinite;
+    margin-top:9%;
+    text-align:center
+}
+#res2 h3{
+animation: typ 2s  infinite;
+margin-top:9%;
+text-align:center
+}
+.work{height: 800px;}
+#one{
+
+    width:70%
+}
+
+
+#two{width:30%}
+#two h2{
+    left: 60%;
+    font-size:120%;
+}
+#first{padding:7%}
+.dynamic{margin-bottom:15%;}
+#second{text-align:center;}
+.dynamic h2{margin-top:3%}
+footer{text-align:center;height:2px;margin-top:5%;
+background-color:#002248;}
+.ph{width:15%;height:15%}
+footer ul{background-color:#002248;}
+
+@keyframes typ {
+    from{color:rgb(168, 168, 168)} to {color:rgb(0, 0, 0)};
+}
+@keyframes circle1{
+
+
+    from{transform:rotate(0deg)
+          translate(-30px)
+        rotate(0deg)}
+
+        to{transform:rotate(360deg)
+            translate(-32px)
+          rotate(-360deg)}
+
+        }
